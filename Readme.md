@@ -101,6 +101,14 @@ The project follows this workflow:
 ## Results
 
 The model's performance is measured using several metrics, including accuracy, precision, recall, and F1-score. The results indicate that the Weighted K-Nearest Neighbor algorithm achieves the highest accuracy, at **99.7%**.
+![Project Architecture](Images/Comparison_results.png)
+> _**Figure**_: Model accuracy comparison
+
+![Project Architecture](Images/prediction_randomForest.png)
+> _**Figure**_: Disease prediction with Random forest model
+
+![Project Architecture](Images/Prediction_knn.png)
+> _**Figure**_: Disease Prediction with Weighted K-Nearest neighbor model
 
 ## Conclusion
 
