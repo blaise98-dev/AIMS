@@ -102,6 +102,15 @@ The project follows this workflow:
 
 The model's performance is measured using several metrics, including accuracy, precision, recall, and F1-score. The results indicate that the Weighted K-Nearest Neighbor algorithm achieves the highest accuracy, at **99.7%**.
 
+![Project Architecture](Images/Comparison_results.png)
+> _**Figure**_: Model accuracy comparison
+
+## Prediction
+![Project Architecture](Images/prediction_randomForest.png)
+> _**Figure**_: Disease prediction with Random forest model
+
+![Project Architecture](Images/Prediction_knn.png)
+> _**Figure**_: Disease Prediction with Weighted K-Nearest neighbor model
 ## Conclusion
 
 Employing machine learning algorithms for disease prediction based on symptoms shows great promise as a cost-effective and efficient diagnostic approach. This project's findings highlight the effectiveness of these algorithms in predicting diseases from symptoms. Furthermore, an interactive interface can assist healthcare professionals in making informed decisions and delivering accurate diagnoses.
