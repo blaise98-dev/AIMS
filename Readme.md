@@ -12,10 +12,7 @@ and develop a disease prediction system using multiple machine learning (ML)
 algorithms. These machine-learning algorithms will predict the disease based on age,
 gender, and symptoms.
 
-<<<<<<< HEAD
 ![Project Architecture](Images/projectArchitecture.jpg)
-=======
->>>>>>> bda760e0db2c87b8f09bd1426c12e4baceab4ca1
 
 ## Implementation
 
