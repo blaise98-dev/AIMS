@@ -13,7 +13,7 @@ algorithms. These machine-learning algorithms will predict the disease based on 
 gender, and symptoms.
 
 ![Project Architecture](Images/projectArchitecture.jpg)
-
+> _**Figure**_: Project Architecture diagram
 ## Implementation
 
 This project focuses on predicting diseases based on symptoms through various machine learning algorithms, including Decision Tree, Random Forest, Weighted K-Nearest Neighbors, Naïve Bayes, Support Vector Classifier (SVC), and Ensemble Learning methods such as XGBoost, AdaBoost, CatBoost, LightGBM Classifier, and Extra Trees Classifier. Additionally, it employs Neural Networks like Multi-Layer Perceptron (MLP), Long Short-Term Memory (LSTM), and Gated Recurrent Unit (GRU). The dataset utilized in this project is an open-source collection from the Kaggle Data Repository, encompassing data from 4,962 patients with 42 distinct diseases.
@@ -110,6 +110,15 @@ The model's performance is measured using several metrics, including accuracy, p
 ![Project Architecture](Images/Prediction_knn.png)
 > _**Figure**_: Disease Prediction with Weighted K-Nearest neighbor model
 
+![Project Architecture](Images/Comparison_results.png)
+> _**Figure**_: Model accuracy comparison
+
+## Prediction
+![Project Architecture](Images/prediction_randomForest.png)
+> _**Figure**_: Disease prediction with Random forest model
+
+![Project Architecture](Images/Prediction_knn.png)
+> _**Figure**_: Disease Prediction with Weighted K-Nearest neighbor model
 ## Conclusion
 
 Employing machine learning algorithms for disease prediction based on symptoms shows great promise as a cost-effective and efficient diagnostic approach. This project's findings highlight the effectiveness of these algorithms in predicting diseases from symptoms. Furthermore, an interactive interface can assist healthcare professionals in making informed decisions and delivering accurate diagnoses.
