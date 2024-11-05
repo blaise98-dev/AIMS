@@ -13,7 +13,7 @@ algorithms. These machine-learning algorithms will predict the disease based on 
 gender, and symptoms.
 
 ![Project Architecture](Images/projectArchitecture.jpg)
-
+> _**Figure**_: Project Architecture diagram
 ## Implementation
 
 This project focuses on predicting diseases based on symptoms through various machine learning algorithms, including Decision Tree, Random Forest, Weighted K-Nearest Neighbors, Naïve Bayes, Support Vector Classifier (SVC), and Ensemble Learning methods such as XGBoost, AdaBoost, CatBoost, LightGBM Classifier, and Extra Trees Classifier. Additionally, it employs Neural Networks like Multi-Layer Perceptron (MLP), Long Short-Term Memory (LSTM), and Gated Recurrent Unit (GRU). The dataset utilized in this project is an open-source collection from the Kaggle Data Repository, encompassing data from 4,962 patients with 42 distinct diseases.
