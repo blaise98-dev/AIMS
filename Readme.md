@@ -1,5 +1,4 @@
-# Title: Modelling and Disease Prediction from Different Symptoms Using Machine
-Learning.
+# Title: Modelling and Disease Prediction from Different Symptoms Using Machine Learning.
 
 # Abstract
 
