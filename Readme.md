@@ -1,36 +1,91 @@
-# Disease Prediction using Machine Learning (Diagn-AI-zer)
+# Disease Prediction Using Machine Learning (Blaise)
 
-This project aims to predict diseases based on symptoms using different machine learning algorithms, namely Decision Tree, Random Forest, Weighted K Nearest Neighbours, Naïve Bayes Algorithm, SVC, Ensemble learning(XGBoost, AdaBoost,). The dataset used for this project is an open-source one hosted in Kaggle Data Repository, containing information on 4962 patients and 42 different diseases. 
+This project focuses on predicting diseases based on symptoms through various machine learning algorithms, including Decision Tree, Random Forest, Weighted K-Nearest Neighbors, Naïve Bayes, Support Vector Classifier (SVC), and Ensemble Learning methods such as XGBoost, AdaBoost, CatBoost, LightGBM Classifier, and Extra Trees Classifier. Additionally, it employs Neural Networks like Multi-Layer Perceptron (MLP), Long Short-Term Memory (LSTM), and Gated Recurrent Unit (GRU). The dataset utilized in this project is an open-source collection from the Kaggle Data Repository, encompassing data from 4,962 patients with 42 distinct diseases.
 
 ## Dataset
 
-The dataset used in this project contains information on 4962 patients and 42 different diseases, including Fungal infection, Allergy, GERD, Chronic cholestasis, Drug Reaction, Peptic ulcer disease, AIDS, Diabetes, Gastroenteritis, Bronchial Asthma, Hypertension, Migraine, Cervical spondylosis, Paralysis (brain hemorrhage), Jaundice, Malaria, Chicken pox, Dengue, Typhoid, hepatitis A, Hepatitis B, Hepatitis C, Hepatitis D, Hepatitis E, Alcoholic hepatitis, Tuberculosis, Common Cold, Pneumonia, Dimorphic hemmorhoids(piles), Heart attack, Varicose veins, Hypothyroidism, Hyperthyroidism, Hypoglycemia, Osteoarthristis, Arthritis, (vertigo) Paroymsal Positional Vertigo, Acne, Urinary tract infection, Psoriasis, and Impetigo.
+The dataset consists of information on 4,962 patients across 42 different diseases, including:
+
+- Fungal Infection
+- Allergy
+- Gastroesophageal Reflux Disease (GERD)
+- Chronic Cholestasis
+- Drug Reaction
+- Peptic Ulcer Disease
+- AIDS
+- Diabetes
+- Gastroenteritis
+- Bronchial Asthma
+- Hypertension
+- Migraine
+- Cervical Spondylosis
+- Paralysis (Brain Hemorrhage)
+- Jaundice
+- Malaria
+- Chicken Pox
+- Dengue
+- Typhoid
+- Hepatitis A
+- Hepatitis B
+- Hepatitis C
+- Hepatitis D
+- Hepatitis E
+- Alcoholic Hepatitis
+- Tuberculosis
+- Common Cold
+- Pneumonia
+- Dimorphic Hemorrhoids (Piles)
+- Heart Attack
+- Varicose Veins
+- Hypothyroidism
+- Hyperthyroidism
+- Hypoglycemia
+- Osteoarthritis
+- Arthritis
+- Paroxysmal Positional Vertigo
+- Acne
+- Urinary Tract Infection
+- Psoriasis
+- Impetigo
 
 ## Architecture
 
-The following machine learning algorithms are used to predict diseases based on symptoms:
+The following machine learning algorithms are employed for disease prediction based on symptoms:
 
-- Decision Tree
-- Random Forest
-- K Nearest Neighbours
-- Naïve Bayes Algorithm
+- **Decision Tree**
+- **Random Forest**
+- **XGBoost**
+- **AdaBoost**
+- **CatBoost**
+- **LightGBM Classifier**
+- **Gradient Boosting**
+- **Extra Trees Classifier**
+- **Weighted K-Nearest Neighbor**
+- **Naïve Bayes**
+- **Support Vector Machine**
 
-## Flow of Project
+Neural Network models used include:
 
-The flow of the project is as follows:
+- **Multi-Layer Perceptron (MLP)**
+- **Long Short-Term Memory (LSTM)**
+- **Gated Recurrent Unit (GRU)**
 
-1. Data Collection: The dataset is collected from Kaggle Data Repository.
-2. Data Preprocessing: The dataset is cleaned, and missing values are handled.
-3. Data Visualization: Data is visualized to get insights and better understanding.
-4. Feature Selection: Important features are selected for training the models.
-5. Model Building: Four different machine learning algorithms are used to train the model.
-6. Model Evaluation: The performance of the model is evaluated using different metrics.
-7. Interactive Interface: An interactive interface is developed to facilitate interaction with the data.
+## Project Workflow
+
+The project follows this workflow:
+
+1. **Data Collection**: The dataset is sourced from the Kaggle Data Repository.
+2. **Data Preprocessing**: The dataset is cleaned, and missing values are addressed.
+3. **Data Visualization**: Visualization techniques are applied to gain insights and a better understanding of the data.
+4. **Feature Selection**: Significant features are selected for model training.
+5. **Model Building**: Eleven different machine learning algorithms are implemented  and Three Neural network to train the models.
+6. **Model Evaluation**: The model's performance is assessed using various metrics.
+7. **Interactive Interface**: An interactive interface is developed to enhance user interaction with the data.
 
 ## Results
 
-The performance of the model is evaluated using different metrics such as accuracy, precision, recall, and F1-score. The results show that the Random Forest algorithm outperforms the other algorithms with an accuracy of 98%.
+The model's performance is measured using several metrics, including accuracy, precision, recall, and F1-score. The results indicate that the Weighted K-Nearest Neighbor algorithm achieves the highest accuracy, at **99.7%**.
 
 ## Conclusion
 
-The use of machine learning algorithms for disease prediction based on symptoms is quite promising and can be a cost-effective and efficient way to diagnose diseases. The results of this project demonstrate the effectiveness of machine learning algorithms in predicting diseases based on symptoms. An interactive interface can also help healthcare professionals to make better decisions and provide accurate diagnoses.
+Employing machine learning algorithms for disease prediction based on symptoms shows great promise as a cost-effective and efficient diagnostic approach. This project's findings highlight the effectiveness of these algorithms in predicting diseases from symptoms. Furthermore, an interactive interface can assist healthcare professionals in making informed decisions and delivering accurate diagnoses.
