@@ -1,6 +1,6 @@
 # Title: Modelling and Disease Prediction from Different Symptoms Using Machine Learning.
 
-# Abstract
+## Abstract
 
 Early and accurate analysis and treatment of infectious disease is relevant
 for disease prevention in human and animal populations. In cases of serious infections,
@@ -13,7 +13,7 @@ algorithms. These machine-learning algorithms will predict the disease based on 
 gender, and symptoms.
 
 
-# Implementation: Disease Prediction Using Machine Learning (Blaise)
+## Implementation
 
 This project focuses on predicting diseases based on symptoms through various machine learning algorithms, including Decision Tree, Random Forest, Weighted K-Nearest Neighbors, Naïve Bayes, Support Vector Classifier (SVC), and Ensemble Learning methods such as XGBoost, AdaBoost, CatBoost, LightGBM Classifier, and Extra Trees Classifier. Additionally, it employs Neural Networks like Multi-Layer Perceptron (MLP), Long Short-Term Memory (LSTM), and Gated Recurrent Unit (GRU). The dataset utilized in this project is an open-source collection from the Kaggle Data Repository, encompassing data from 4,962 patients with 42 distinct diseases.
 
