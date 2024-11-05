@@ -104,15 +104,6 @@ The model's performance is measured using several metrics, including accuracy, p
 ![Project Architecture](Images/Comparison_results.png)
 > _**Figure**_: Model accuracy comparison
 
-![Project Architecture](Images/prediction_randomForest.png)
-> _**Figure**_: Disease prediction with Random forest model
-
-![Project Architecture](Images/Prediction_knn.png)
-> _**Figure**_: Disease Prediction with Weighted K-Nearest neighbor model
-
-![Project Architecture](Images/Comparison_results.png)
-> _**Figure**_: Model accuracy comparison
-
 ## Prediction
 ![Project Architecture](Images/prediction_randomForest.png)
 > _**Figure**_: Disease prediction with Random forest model
