@@ -12,7 +12,7 @@ models = []
 
 # Load the LSTM model
 try:
-    lstm_model = tf.keras.models.load_model('/home/aimssn-it/Desktop/ResearchThesis/Codes/models/lstm_multiclass_model.h5')
+    lstm_model = tf.keras.models.load_model('models/lstm_multiclass_model.h5')
     models.append(('LSTM', lstm_model))
     print("Loaded LSTM model")
 except Exception as e:
@@ -20,7 +20,7 @@ except Exception as e:
 
 # Load MLP model
 try:
-    mlp_model = tf.keras.models.load_model('/home/aimssn-it/Desktop/ResearchThesis/Codes/models/mlp_multiclass_model.h5')
+    mlp_model = tf.keras.models.load_model('models/mlp_multiclass_model.h5')
     models.append(('MLP', mlp_model))
     print("Loaded MLP model")
 except Exception as e:
@@ -28,7 +28,7 @@ except Exception as e:
 
 # Load the severity map
 try:
-    severity_map_path = "/home/aimssn-it/Desktop/ResearchThesis/Codes/models/file_severity_map.pkl"
+    severity_map_path = "models/file_severity_map.pkl"
     symptom_severity_map = joblib.load(severity_map_path)
     print("Loaded severity map")
 except Exception as e:
@@ -36,7 +36,7 @@ except Exception as e:
 
 # Load the label encoder
 try:
-    label_encoder_path = '/home/aimssn-it/Desktop/ResearchThesis/Codes/models/le_new.pkl'
+    label_encoder_path = 'models/le_new.pkl'
     le = joblib.load(label_encoder_path)
     print("Loaded label encoder")
 except Exception as e:
@@ -44,14 +44,14 @@ except Exception as e:
 
 # Load the training data (X_train)
 try:
-    X_train_path = '/home/aimssn-it/Desktop/ResearchThesis/Codes/models/file_X_train.pkl'
+    X_train_path = 'models/file_X_train.pkl'
     X_train = joblib.load(X_train_path)
     print("Loaded X_train")
 except Exception as e:
     print(f"Error loading X_train: {e}")
 
 # Load the dataset to train the label encoder
-data = pd.read_csv('/home/aimssn-it/Desktop/ResearchThesis/Codes/dataset/health_dataset_combined.csv')
+data = pd.read_csv('dataset/health_dataset_combined.csv')
 labels = data['Disease']
 
 # Encode the labels as integers
@@ -63,7 +63,7 @@ disease_names = label_encoder.inverse_transform(np.arange(len(label_encoder.clas
 
 # Load precautionary measures
 try:
-    precaution_dict = joblib.load("/home/aimssn-it/Desktop/ResearchThesis/Codes/models/file_symptom_precaution_dict.pkl")
+    precaution_dict = joblib.load("models/file_symptom_precaution_dict.pkl")
     print("Loaded precautionary measures")
 except Exception as e:
     print(f"Error loading precautionary measures: {e}")
