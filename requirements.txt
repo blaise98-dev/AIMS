@@ -11,7 +11,6 @@ keras-cv==0.8.2
 keras-nlp==0.9.3
 keras-tuner==1.4.6
 matplotlib==3.7.5
-numpy==1.23.5
 packaging==23.0
 pandas==2.1.4
 pandas-datareader==0.10.0
